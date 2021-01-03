@@ -1,0 +1,39 @@
+#img{
+    height: 300px;
+    width:200px;
+
+}
+
+.card{
+    width: 500px;
+    box-shadow: 5px 5px #cdf01d;
+    border: 0px 0px 1px 1px solid grey;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    color: #1238bf;
+    font-weight: 600;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+#back{
+    color: black;
+    font-weight: bold;
+    background-color: #d0f224;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width:350px;
+    }
+}
